@@ -1,0 +1,14 @@
+.HeaderWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  grid-column: 1 / -1;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-2xs);
+  width: 100%;
+}
+
+.ButtonWrapper {
+  display: flex;
+  gap: var(--space-s);
+}
